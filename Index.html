@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SynXis Platform</title>
+        <link rel="icon" href="https://controlcenter-p1.synxis.com/CC/Images/favicon.ico">
+        <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="LoginContainer" >
+
+            <div>
+                <img src="https://controlcenter-p1.synxis.com/CC/images/sabre_logo.svg"> 
+            </div>
+
+    
+
+            <p class="TopTitle"> 
+                SynXis Platform
+            </p>
+
+
+            <h3>
+                <span id="LoginText">Please enter your user name and password to log in.</span>
+            </h3>
+
+        <form>
+
+
+            <p>
+                <label for="name">Username</label> </br>
+                <input type="text" id="name" tabindex="1" name="name" placeholder="Username"></br>
+            </p>
+
+            <p>    
+                <label for="password">Password</label></br>
+                <input type="password" id="password" tabindex="2" name="password" placeholder="Password">
+            </p>
+
+             <button hretype="button" class="Submit-Button" id=SignIn style="color: aliceblue;"> Sign In </button>
+
+            <a class="btn-forgot-password"> Forgot Password?</a>
+
+                <hr/>
+
+                <div class="login-lang">
+            
+                    <p class="English">English</p>
+                    <p class="Español">Español</p>
+                    <p class="Português">Português</p>
+                    <p class="Deutsch">Deutsch</p>
+                    <p class="Italiano">Italiano</p>
+                    <p class="Français">Français</p>
+                    <p class="japanese">日本語</p>
+                    <p class="chinese">简体中文</p>
+            
+            </div>
+
+
+
+        </form>
+    
+    
+    
+    </div>      
+      <footer class="login-terms" >
+
+            <p>Terms Of Use:To use and access this web site you must have written permission 
+                in the form of a contractual agreement and have obtained user names <br />
+                and passwords from Sabre Hospitality Solutions. This website is copyrighted and proprietary to 
+                Sabre Hospitality Solutions. Any use of this web site <br />
+                other than stated in the contractual agreement or any distribution of user names and passwords to other 
+                entities that are not under contract with Sabre<br />
+                Hospitality Solutions is strictly prohibited and would be considered a breach of confidentiality with potential 
+                legal and financial implications.
+            </p>   
+
+      </footer>
+  </body>
+</html>
